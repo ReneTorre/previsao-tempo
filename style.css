@@ -38,17 +38,28 @@ body {
 }
 
 .button-search {
-    background-color: #7c7c7c2b;
+    width: 42px;
+    background-color: white;
+    opacity: 0.5;
     border: none;
     outline: none;
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 50%;
     cursor: pointer;
     float: right;
+    transition: 0.3s ease;
 }
 
 .img-search {
-    width: 20px;
+    width: 100%;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    margin-top: 1px;
+    
+}
+
+.button-search:hover{
+    opacity: 0.9;
 }
 
 .medium-box {
